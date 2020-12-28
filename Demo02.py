@@ -112,13 +112,6 @@
 #     f.write(info.encode())
 # f.close()
 
-# f = open("test.txt",'w',1) # 1表示行缓冲
-# while True:
-#     info = input(">>")
-#     if not info:
-#         break
-#     f.write(info+'\n')
-# f.close()
 
 f = open("test.txt",'w')
 while True:
